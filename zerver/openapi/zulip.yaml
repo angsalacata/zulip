@@ -7536,6 +7536,10 @@ paths:
                           **Changes**: Deprecated in Zulip 2.1, in favor of the more expressive
                           `external_authentication_methods`.
                         properties:
+                          deprecated:
+                            description: |
+                              Is this object (authentication_methods) deprecated
+                            type: boolean
                           password:
                             description: |
                               Whether the user can authenticate using password.
